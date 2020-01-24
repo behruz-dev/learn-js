@@ -45,18 +45,13 @@ function checkUser(user,baseUsers){
     }
 }
 
-console.log(users[0])
-console.log(users[1])
-console.log(users[2])
-console.log(users[3])
-
 
 
 
 var User = prompt('введите имя!')
 var UserPass = prompt('введите пароль!')
 
-var userArr = [user, UserPass]
+var userArr = [User, UserPass]
 
 var check = checkUser(userArr,users)
 
