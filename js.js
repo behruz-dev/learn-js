@@ -18,7 +18,7 @@ if (userNum > 0 && userNum < 21) {
 /* - */
 
 function searchPorch(flat, numPorchs, flatsinonePorch) {
-    for (var numPorch = 1, ; numPorch <= numPorchs, numPorch++) {
+    for (var numPorch = 1, ; numPorch <= numPorchs; numPorch++) {
         var minInPorchFlat = numPorch * flatsinonePorch - flatsinonePorch + 1
         var maxInPorchFlat = numPorch * flatsinonePorch - flatsinonePorch
         if (minInPorchFlat <= flat && maxInPorchFlat >= flat) {
@@ -33,7 +33,7 @@ var john = ['john', 123456];
 var jane=  ['jane', 654321];
 var alex = ['alex', 987654];
 
-var users = [john, jane, alex]
+var users = [['john', 123456], ['jane', 654321], ['alex', 987654],]
 
 
 
